@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80dvh;
+  background-image: url("/images/bg-three.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: bisque;
+  padding: 1rem 2.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 5px;
+  border-bottom: 4px solid rgb(119, 108, 108);
+  border-right: 4px solid rgb(119, 108, 108);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list > menu > a {
+  padding-left: 1rem;
+}
+
+.nav-list > menu > a:hover {
+  padding-left: 1rem;
+  color: coral;
+  font-weight: 800;
+}
+
+.bell {
+  width: 30px;
+  height: 30px;
+  fill: antiquewhite;
+  background-color: antiquewhite;
+  border-radius: 50%;
+}
+
+.nav-action {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-login {
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.3rem;
+  font-weight: 700;
+  border: none;
+  box-shadow: 1.9px 2px 1.5px 0.8px #aaa;
+  cursor: pointer;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.slogan > h1 {
+  font-size: 1.5rem;
+}
+
+.slogan > strong {
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.slogan > em {
+  font-size: 0.9rem;
+}
+
+.slogan > button {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.3rem;
+  font-weight: 700;
+  border: none;
+  box-shadow: 1.9px 2px 1.5px 0.8px #aaa;
+  cursor: pointer;
+  width: fit-content;
+}
+
+main {
+  position: absolute;
+  margin: auto;
+  padding: 1rem 2.5rem;
+  width: 100%;
+  place-items: center;
+}
+
+main > h1 {
+  position: relative;
+  top: -3rem;
+  color: bisque;
+  background-color: black;
+  padding: 0.5rem 1.6rem;
+  border-radius: 1rem;
+  width: fit-content;
+}
+
+/* style for the card  */
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 20%;
+  margin: 0.4rem;
+}
+
+.img-card {
+  width: 150px;
+  height: 200px;
+  margin: 1rem;
+}
+
+.inner-card {
+  background-color: rgba(128, 128, 128, 0.205);
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  flex-direction: column;
+}
+
+.desc {
+  text-align: justify;
+  padding: 0.5rem;
+}
+
+.icon-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+  width: 60%;
+  padding: 6px 1.5rem;
+  border-radius: 8px;
+}
+
+.icon-actions > img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
