@@ -6,7 +6,7 @@
 
 header {
   height: 90dvh;
-  background-image: url("/images/bg-three.jpg");
+  background-image: url("./images/bg-three.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ header {
 }
 
 .header-pages {
-  background-image: url("/images/bg-five.jpg");
+  background-image: url("./images/bg-five.jpg");
   height: 100%;
 }
 
@@ -222,4 +222,107 @@ input {
   border: none;
   font-weight: 800;
   cursor: pointer;
+}
+
+/* register form styles */
+.register-div {
+  display: none;
+  position: absolute;
+  background-color: #333232c7;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  top: 0;
+  bottom: 0;
+}
+
+.register {
+  position: relative;
+  border: 2px solid red;
+  width: 40%;
+  top: 8rem;
+  padding: 2rem;
+  border: none;
+  border-bottom: 3px solid orange;
+  border-radius: 2rem;
+  background: #000000ea;
+}
+
+
+/* products page style */
+.products {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  place-items: center;
+}
+
+.items-list {
+  position: relative;
+  bottom: 27rem;
+  width: 80%;
+}
+
+.items-list > h1 {
+  font-size: 50px;
+  background-color: #f0f8ff93;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0 14rem;
+}
+
+.items-container {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #ffffd8;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.item-catalogue {
+  width: 20%;
+}
+
+.item-catalogue > menu {
+  list-style: none;
+}
+
+.item-catalogue > menu > li {
+  margin-top: 1rem;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 2px solid red; */
+  width: 80%;
+  align-items: center;
+  gap: 3rem;
+}
+
+.item-img {
+  width: 8rem;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.action > button {
+  width: 2rem;
+  height: 2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.action-cart {
+  width: 35px;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 4px;
 }
