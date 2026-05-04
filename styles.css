@@ -131,6 +131,29 @@ main > h1 {
   width: fit-content;
 }
 
+@media screen and (max-width: 767px) {
+  header {
+    padding: 1rem;
+  }
+
+  .logo {
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .nav-list > menu {
+    display: none;
+  }
+
+  .btn-login {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+  }
+
+  .slogan {
+    text-align: center;
+  }
+}
 /* style for the card  */
 .card-container {
   display: flex;
@@ -248,19 +271,20 @@ input {
   background: #000000ea;
 }
 
-
 /* products page style */
 .products {
   position: absolute;
-  width: 100%;
+  /* width: 100%; */
   margin: auto;
+  top: 8rem;
   place-items: center;
+  color: black;
 }
 
 .items-list {
   position: relative;
-  bottom: 27rem;
   width: 80%;
+  margin: auto;
 }
 
 .items-list > h1 {
@@ -277,8 +301,10 @@ input {
   width: 100%;
   margin-top: 1rem;
   background-color: #ffffd8;
-  padding: 1rem;
+  padding: 3rem;
+  margin-bottom: 3rem;
   border-radius: 1rem;
+  /* border: 2px solid red; */
 }
 
 .item-catalogue {
